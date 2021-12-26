@@ -44,6 +44,10 @@ Mouse actions supported:
 
 ## Installing glr-dmenu on Arch Linux
 
+glr-dmenu is available in the [AUR](https://aur.archlinux.org/packages/glr-dmenu-git/).
+
+**OR**
+
 You can clone this repository or simply download the `PKGBUILD` file.\
 Then execute:
 
