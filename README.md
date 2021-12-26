@@ -49,7 +49,7 @@ glr-dmenu is available in the [AUR](https://aur.archlinux.org/packages/glr-dmenu
 **OR**
 
 You can clone this repository or simply download the `PKGBUILD` file.\
-Either way, make sure you're in the same direactory as the `PKGBUILD` file and run:
+Either way, make sure you're in the same directory as the `PKGBUILD` file and run:
 
 ```bash
 makepkg -cf
