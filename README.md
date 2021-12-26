@@ -69,7 +69,7 @@ Then run:
 
 ```console
 cd glr-dmenu
-sudo make install
+sudo make clean install
 ```
 
 ---
