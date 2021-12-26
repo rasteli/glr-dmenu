@@ -10,7 +10,7 @@ It manages large numbers of user-defined menu items efficiently.
 glr-dmenu is my personal build of dmenu I made to satisfy my needs. These are all the patches I've included so far:
 
 - case insensitive - ignores capital letters
-- grid - renders dmenus's entries in a grid
+- grid - renders dmenu's entries in a grid
 - highlight - highlights the individual characters of matched text for each entry
 - line height - makes possible to set the height of a dmenu line
 - morecolor - creates an additional color scheme, for use with the entries adjacent to the selection
@@ -71,5 +71,7 @@ Then run:
 cd glr-dmenu
 sudo make install
 ```
+
+---
 
 > glr-dmenu conflicts with standard dmenu. Make sure to backup your existing dmenu as this will overwirte it.
