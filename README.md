@@ -49,15 +49,15 @@ glr-dmenu is available in the [AUR](https://aur.archlinux.org/packages/glr-dmenu
 **OR**
 
 You can clone this repository or simply download the `PKGBUILD` file.\
-Then execute:
+Either way, make sure you're in the same direactory as the `PKGBUILD` file and run:
 
-```console
+```bash
 makepkg -cf
 ```
 
 This will create a pkg.tar.zst file. Install it running this command:
 
-```console
+```bash
 sudo pacman -U name-of-package.pkg.tar.zst
 ```
 
@@ -65,13 +65,13 @@ sudo pacman -U name-of-package.pkg.tar.zst
 
 Clone this repository:
 
-```console
+```bash
 git clone https://gitlab.com/glr01/glr-dmenu.git
 ```
 
 Then run:
 
-```console
+```bash
 cd glr-dmenu
 sudo make clean install
 ```
