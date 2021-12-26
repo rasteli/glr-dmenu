@@ -8,19 +8,10 @@ url="https://gitlab.com/glr01/glr-dmenu.git"
 license=('MIT')
 depends=(ttf-hack)
 makedepends=(git)
-checkdepends=()
-optdepends=()
 provides=(dmenu)
 conflicts=(dmenu)
-replaces=()
-backup=()
-options=()
-install=
-changelog=
 source=("git+$url")
-noextract=()
 md5sums=('SKIP')
-validpgpkeys=()
 
 pkgver() {
   cd "${_pkgname}"
@@ -33,7 +24,7 @@ build () {
 }
 
 package() {
-	cd glr-dmenu
+  cd glr-dmenu
   make PREFIX=/usr DESTDIR="${pkgdir}" install
   install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pgkname}/LICENSE"
   install -Dm644 README.md "${pkgdir}/usr/share/doc/${pgkname}/README.md"
