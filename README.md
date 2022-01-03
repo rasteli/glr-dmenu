@@ -52,7 +52,7 @@ You can clone this repository or simply download the `PKGBUILD` file.\
 Either way, make sure you're in the same directory as the `PKGBUILD` file and run:
 
 ```bash
-makepkg -cf
+makepkg -si
 ```
 
 This will create a pkg.tar.zst file. Install it running this command:
